@@ -60,18 +60,11 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  /* Заменил тегом img, потом убрать
   background-image: url(../images/header-image.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;*/
+  background-position: center;
 }
-
-.header__main-illustration_img-size {
-  width: 100%;
-  height: auto;
-}
-
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
