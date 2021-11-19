@@ -117,8 +117,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .description {
   display: flex;
-  /* для разработки */
-  border: 1px solid red;
 }
 .dectiption_paddings {
   padding-top: 100px;
@@ -158,12 +156,57 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: bold;
 }
 
+.digits {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .digits_paddings {
+  width: 1100px;
+  margin: 0 auto;
   padding: 100px 0;
 }
 
-.kaufman_paddings {
-  padding: 90px 0;
+.section-title {
+  width: 60%;
+  margin: 0 auto 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table_size {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.table__cell {
+
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_light {
+  width: 250px;
+  color: #000;
+  margin-right: 0;
+  margin-top: 60px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -173,6 +216,28 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: 0;
   margin-top: 80px;
 }
+
+.table__heading {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_margin-bottom {
+  margin-bottom: 20px;
+}
+
+.kaufman_paddings {
+  padding: 90px 0;
+}
+
 
 /* main конец */
 
