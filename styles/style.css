@@ -197,10 +197,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
 }
 
-.table__cell {
-
-}
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_light {
   width: 250px;
@@ -232,6 +228,43 @@ h1, h2, h3, h4, h5, h6, p {
 
 .table__text_margin-bottom {
   margin-bottom: 20px;
+}
+
+.feynman {
+  position: relative;
+  min-height: 890px;
+  background: #f2f2f2 url(../images/feynman.png) left bottom/867px 637px no-repeat;
+}
+
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  margin: 0 auto 70px;
+  padding-top: 100px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.feynman__link:hover,
+.feynman__link:active {
+  color: #6aa1e9;
 }
 
 .kaufman_paddings {
