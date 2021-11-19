@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*header начало */
+
 .header {
   display: flex;
   height: 100vh;
@@ -105,6 +107,32 @@
   background-image: url(../images/logo_place_footer.svg);
 }
 
+/*header конец*/
+
+/* main начало */
+
+.dectiption_paddings {
+  padding-top: 100px;
+}
+
+.two-columns {}
+
+.two-columns__brief_h2 {}
+
+.two-columns__main-text {}
+
+.two-columns__paragraph {}
+
+.two-columns__span-accent {}
+
+.digits_paddings {
+  padding: 100px 0;
+}
+
+.kaufman_paddings {
+  padding: 90px 0;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -112,3 +140,13 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/* main конец */
+
+/*footer начало */
+
+.footer_paddings {
+  padding: 60px 0 40px;
+}
+
+/*footer конец */
