@@ -180,7 +180,7 @@ a {
 }
 
 .section-subtitle_theme_dark {
-  color: rgba(255,255,255,0.5);
+  color: white;
 }
 
 .table {
@@ -229,7 +229,7 @@ a {
 }
 
 .table__text_theme_dark {
-  color: rgba(255,255,255,0.5);
+  color: white;
 }
 
 .table__text_margin-bottom {
@@ -324,12 +324,12 @@ a {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  color: rgba(255,255,255,0.5);
+  color: white;
 }
 
 .footer__column-heading {
   margin-bottom: 20px;
-  color: rgba(255,255,255,0.5);
+  color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -343,7 +343,7 @@ a {
 .footer__column-link {
   display: block;
   margin-bottom: 16px;
-  color: rgba(255,255,255,0.5);
+  color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -351,7 +351,7 @@ a {
 
 .footer__column-link:hover,
 .footer__column-link:active {
-  color: white;
+  color: rgba(255,255,255,0.5);
 }
 
 .footer__social-icon {
