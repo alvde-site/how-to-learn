@@ -190,13 +190,13 @@ a {
   z-index: 2;
 }
 
-.table__cell {
-  z-index: 2;
-}
-
 .table_size {
   width: 1100px;
   margin: 0 auto;
+}
+
+.table__cell {
+  z-index: 2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -226,6 +226,9 @@ a {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.table__text_theme_dark {
   color: rgba(255,255,255,0.8);
 }
 
@@ -292,6 +295,8 @@ a {
 /*footer начало */
 
 .footer {
+  display: flex;
+  min-height: 350px;
   background-color: #1f1f1f;
   /* разработка удалить */
   color: white;
@@ -299,11 +304,6 @@ a {
 
 .footer_paddings {
   padding: 60px 0 40px;
-}
-
-.footer_size {
-  display: flex;
-  min-height: 350px;
 }
 
 .footer__columns {
@@ -339,16 +339,6 @@ a {
   flex-basis: 711px;
   justify-content: space-between;
 }
-
-.footer__column_content_info {
-
-}
-
-.footer__column_content_social {
-
-}
-
-.footer__column-links {}
 
 .footer__column-link {
   display: block;
