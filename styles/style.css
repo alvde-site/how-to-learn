@@ -278,7 +278,6 @@ a {
   right: 48px;
   color: #2f80ed;
 }
-
 .feynman__link:hover,
 .feynman__link:active {
   color: #6aa1e9;
@@ -307,8 +306,63 @@ a {
 
 /*footer начало */
 
+.footer {
+  background-color: #1f1f1f;
+  /* разработка удалить */
+  color: white;
+}
+
 .footer_paddings {
   padding: 60px 0 40px;
 }
 
+.footer_size {
+  display: flex;
+  min-height: 350px;
+}
+
+.footer__columns {
+  align-items: stretch;
+  display: flex;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column:not(:first-child) {
+  flex-grow: 1;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.footer__column_content_info {
+
+}
+
+.footer__column_content_social {
+
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+}
+
+.footer__column-links {}
+
+.footer__column-link {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer__author {
+  margin: 18px 0;
+}
 /*footer конец */
