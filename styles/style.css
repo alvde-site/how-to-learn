@@ -328,7 +328,9 @@ a {
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  list-style-type: none;
+  margin: 0 0 16px;
+  padding: 0;
 }
 
 .footer__column-link {
