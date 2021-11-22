@@ -9,10 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin:0;
-}
-
 a {
   text-decoration: none;
 }
@@ -33,7 +29,7 @@ a {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin: auto auto auto 64px;
+  margin: auto 0 auto 64px;
   z-index: 2;
 }
 
@@ -116,12 +112,13 @@ a {
   justify-content: space-between;
 }
 
-.two-columns__brief_h2 {
+.two-columns__brief {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -217,7 +214,7 @@ a {
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -328,7 +325,7 @@ a {
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   color: white;
   line-height: 30px;
   font-size: 18px;
