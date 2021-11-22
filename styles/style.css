@@ -297,6 +297,7 @@ a {
   background-color: #1f1f1f;
   /* разработка удалить */
   color: white;
+  box-sizing: border-box;
 }
 
 .footer_paddings {
@@ -336,9 +337,12 @@ a {
   justify-content: space-between;
 }
 
+.footer__column-links {
+  margin-bottom: 16px;
+}
+
 .footer__column-link {
   display: block;
-  margin-bottom: 16px;
   color: white;
   line-height: 30px;
   font-size: 18px;
