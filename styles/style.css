@@ -79,7 +79,6 @@ a {
 
 .logo {
   width: 183px;
-  height: 32px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,10 +89,12 @@ a {
   position: absolute;
   top: 30px;
   left: 64px;
+  height: 32px;
 }
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
+  height: 35px;
 }
 
 /*header конец*/
@@ -146,12 +147,6 @@ a {
 .digits {
   display: flex;
   flex-direction: column;
-}
-
-
-.digits_paddings {
-  width: 1100px;
-  margin: 0 auto;
   padding: 100px 0;
 }
 
@@ -189,9 +184,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   z-index: 2;
-}
-
-.table_size {
   width: 1100px;
   margin: 0 auto;
 }
