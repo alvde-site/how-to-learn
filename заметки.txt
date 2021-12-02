@@ -1,1 +1,6 @@
 normalize удалить из /styles, и из index.html после importa в css
+style.css перекинуть в папку pages и переименовать в index.css
+папку styles удалить
+закинуть в index.css imports из наработок
+закинуть блоки в папку blocks.
+проверить наличие всех шрифтов, блоков, стилей, картинок через live server
