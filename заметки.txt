@@ -1,0 +1,1 @@
+normalize удалить из /styles, и из index.html после importa в css
