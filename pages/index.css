@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+
 /*header начало */
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -11,8 +13,9 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/rotation/rotation.css);
-/*header конец*/
+
 /* main начало */
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
@@ -64,8 +67,9 @@
 @import url(../blocks/resources/__logo/_pic/resources__logo_pic_n1.css);
 @import url(../blocks/resources/__logo/_pic/resources__logo_pic_polka.css);
 @import url(../blocks/resources/__logo/_pic/resources__logo_pic_strelka.css);
-/* main конец */
+
 /*footer начало */
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
@@ -75,4 +79,3 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-/*footer конец */
