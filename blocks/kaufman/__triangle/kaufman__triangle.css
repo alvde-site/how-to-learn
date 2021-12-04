@@ -4,7 +4,7 @@
   position: absolute;
   top: 0;
   right: -210px;
-  background: url(/images/kaufman-triangle.svg) center/cover no-repeat;
+  background: url(kaufman-triangle.svg) center/cover no-repeat;
   z-index: 0;
   animation: rotation linear 20s infinite;
 }
