@@ -63,10 +63,7 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_arzamas.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_n1.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_polka.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_strelka.css);
+@import url(../blocks/resources/__logo-pic/resources__logo-pic.css);
 
 /*footer начало */
 
